@@ -5,10 +5,12 @@
         "when": "3.7.8",
         "nano": "8.2.2",
         "feedparser":"2.2.10",
-        "node-red-dashboard":"3.0.4",
         "redis":"3.0.2",
         "node-red": "2.0.6",
         "@open-wa/node-red-contrib-wa-automate": "2.4.0",
-        "node-red-contrib-chatbot": "0.19.10"
+        "node-red-contrib-chatbot": "0.19.10",
+      "node-red-dashboard":"2.23.3",
+
+        "node-red-node-tail": "0.1.1"
     }
 }
