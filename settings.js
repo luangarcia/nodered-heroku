@@ -64,7 +64,7 @@ var settings = module.exports = {
             enabled: false
         },
        header: {
-            title: "Node-RED",
+            title: "Flow Builder",
             image: null
         }
     }
