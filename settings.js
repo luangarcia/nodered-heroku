@@ -62,6 +62,10 @@ var settings = module.exports = {
     editorTheme: {
         projects: {
             enabled: false
+        },
+       header: {
+            title: "Node-RED",
+            image: null
         }
     }
 }
