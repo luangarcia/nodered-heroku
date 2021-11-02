@@ -67,7 +67,16 @@ var settings = module.exports = {
             title: "Flow Builder",
             image: null
         }
-    }
+    },
+    
+    
+     userMenu: false, // Hide the user-menu even if adminAuth is enabled
+    login: {
+        image: "https://i.imgur.com/hMXEF96.png" // a 256x256 image
+    },
+    logout: {
+        redirect: "https://google.com"
+    },
 }
 
 if (process.env.NODE_RED_a_USERNAME && process.env.NODE_RED_b_PASSWORD) {
